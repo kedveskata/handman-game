@@ -1,4 +1,6 @@
 # Akasztófa játék
+!! Régi fiókból visszaállítva
+
 *Fejlesztői dokumentáció*
 
 Akasztófa játék az Haladó Python órán tanult kifejezésekkel. 
