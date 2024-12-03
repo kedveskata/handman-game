@@ -3,6 +3,9 @@
 
 Akasztófa játék az Haladó Python órán tanult kifejezésekkel. 
 
+## Megjelenése
+![hangman_program](https://github.com/user-attachments/assets/d11d5268-c4bd-47e3-89ee-76d18c1204fc)
+
 ## Megoldás
 Fontos listák, változók és függvények
 ## Importált csomagok
@@ -37,7 +40,6 @@ for c in range(len(word)):
     if word[c] == char:
         guessed[c] = char
     guess_word.set("".join(guessed))
-
 ```
 
 Az ascii_uppercase-en végigfutva létrehoz gombokat az angol ábécé betűinek.
@@ -46,10 +48,10 @@ Az ascii_uppercase-en végigfutva létrehoz gombokat az angol ábécé betűinek
 for char in ascii_uppercase:
     Button(root, text=char, command=lambda char=char: guess(char), fg=text_color, font=('Verdena 18'), width=4).grid(row=1 + n // 9, column=n % 9)
     n += 1
-
 ```
  
 ## Program működése
+![hangman](https://github.com/user-attachments/assets/0ebe057e-655e-4513-a50e-755aa8d8d273)
  
 ## Fejlesztési lehetőségek
 Jelenítse meg a már megtippelt betűket.
