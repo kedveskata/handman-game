@@ -1,5 +1,5 @@
 # Akasztófa játék
-!! Régi fiókból visszaállítva
+**!! Régi fiókból visszaállítva**
 
 *Fejlesztői dokumentáció*
 
